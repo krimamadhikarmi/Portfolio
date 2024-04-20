@@ -6,7 +6,7 @@ import Link from 'next/link';
 export function HeroSection() {
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+      <div className="grid grid-cols-1 sm:grid-cols-12 lg:px-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mt-32 text-4xl sm:text-5xl lg:text-6xl font-bold px-6 mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
