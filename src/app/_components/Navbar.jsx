@@ -33,7 +33,7 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="w-full fixed top-0 z-50 h-24 bg-black shadow-md">
+    <nav className="w-full fixed top-0 z-50 h-20 bg-black shadow-md">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
