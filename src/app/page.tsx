@@ -3,7 +3,8 @@ import { Navbar } from "./_components/Navbar";
 import { HeroSection } from "./_components/HeroSection";
 import {AboutMe} from "./_components/AboutMe";
 import {Education} from "./_components/Education"
-import {Skills} from "./_components/Skills"
+import {Skills} from "./_components/Skills";
+import {MyServices} from "./_components/MyServices"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <AboutMe/>
         <Education/>
         <Skills/>
+        <MyServices/>
 
       </div>
     </main>
