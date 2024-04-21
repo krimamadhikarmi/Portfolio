@@ -17,7 +17,7 @@ export function MyProjects() {
           <Link
             href={"/projects"}
             alt="see more"
-            className="ml-6 mb-6 px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-pink-500 hover:bg-slate-200"
+            className="ml-6 mb-6 px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-green-500  to-red-500 hover:bg-slate-200"
           >
             See More
           </Link>

@@ -33,7 +33,7 @@ export function Skills() {
         {skills_data.length > 3 && (
           <div className="flex justify-center mt-4">
             <button
-              className="px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-pink-500 hover:bg-slate-200"
+              className="px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-yellow-500 to-pink-500 hover:bg-slate-200"
               onClick={() => setShowAllSkills(!showAllSkills)}
             >
               {showAllSkills ? "Show Less" : "See More"}
