@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import Link from 'next/link';
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -17,7 +17,7 @@ export function HeroSection() {
               sequence={[
                 "Krima Madhikarmi",
                 1000,
-                "Front End Developer",
+                "FrontEnd Developer",
                 1000,
                 "Student",
                 1000,
