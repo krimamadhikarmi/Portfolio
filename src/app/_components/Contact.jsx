@@ -1,11 +1,13 @@
+'use client';
 import GithubIcon from "../../../public/images/github-icon.svg";
 import LinkedinIcon from "../../../public/images/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
+
 export function Contact() {
   return (
-    <section>
+    <section id="contact">
       <h1 className=" text-3xl mt-20 text-purple-300 text-center font-bold lg:text-4xl">
         Contact
       </h1>
@@ -26,7 +28,7 @@ export function Contact() {
           <Link href="https://www.linkedin.com/in/krima-madhikarmi-02b402294/">
             <Image src={LinkedinIcon} target="/blank"  rel="noopener noreferrer" alt="Linkedin Icon" />
           </Link>
-          <Link href="/">
+          <Link href={'/email'}>
             <EnvelopeIcon  className="h-12 w-12 text-white cursor-pointer"/>
           </Link>
         </div>

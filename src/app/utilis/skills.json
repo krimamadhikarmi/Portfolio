@@ -1,0 +1,34 @@
+[
+  {
+    "name": "C",
+    "image": "./images/c.png"
+  },
+  {
+    "name": "C++",
+    "image": "./images/c++.png"
+  },
+  {
+    "name": "HTML",
+    "image": "./images/html.png"
+  },
+  {
+    "name": "CSS",
+    "image": "./images/css.png"
+  },
+  {
+    "name": "JavaScript",
+    "image": "./images/js.png"
+  },
+  {
+    "name": "React",
+    "image": "./images/react.png"
+  },
+  {
+    "name": "Ruby",
+    "image": "./images/ruby.png"
+  },
+  {
+    "name": "Rails",
+    "image": "./images/rails.png"
+  }
+]

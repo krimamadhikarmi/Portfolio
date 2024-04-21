@@ -5,7 +5,7 @@ import {
 
 export function MyServices() {
   return (
-    <section>
+    <section id="services">
       <div className="bg-[#121212] pt-[4rem] md:pt-[8rem] pb-[5rem]">
         <h1 className="text-4xl mb-12 text-purple-300 text-center font-bold lg:text-4xl">
           My Services

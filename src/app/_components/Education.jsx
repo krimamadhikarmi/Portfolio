@@ -2,41 +2,7 @@
 
 import { useState, useTransition } from "react";
 import { EduButton } from "./Button";
-
-const TAB_DATA = [
-  {
-    title: "Education",
-    id: "education",
-    content: [
-      {
-        title: "SEE",
-        institution: "Everest English School",
-        year: "2017",
-      },
-      {
-        title: "NEB",
-        institution: "Little Angels' College",
-        year: "2018-2020",
-      },
-      {
-        title: "Bachelors",
-        institution: "Samriddhi College",
-        year: "2020-Present",
-      },
-    ],
-  },
-  {
-    title: "Experience",
-    id: "experience",
-    content: [
-      {
-        title: "Internship",
-        institution: "Chulo Solutions",
-        year: "March 2024 - Present",
-      },
-    ],
-  },
-];
+import edu_data from "../utilis/education.json"
 
 export function Education() {
   const [tab, setTab] = useState("education");
@@ -48,7 +14,7 @@ export function Education() {
     });
   };
 
-  const currentTab = TAB_DATA.find((t) => t.id === tab);
+  const currentTab = edu_data.find((t) => t.id === tab);
   return (
     <section>
       <div>

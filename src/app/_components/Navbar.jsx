@@ -19,12 +19,12 @@ export function Navbar() {
       path: "#about",
     },
     {
-      title: "Projects",
-      path: "#projects",
+      title: "Services",
+      path: "#services",
     },
     {
-      title: "CV",
-      path: "#cv",
+      title: "Projects",
+      path: "#projects",
     },
     {
       title: "Contact",
@@ -33,7 +33,7 @@ export function Navbar() {
   ];
 
   return (
-    <nav className="w-full fixed top-0 z-50 h-20 bg-black shadow-md">
+    <nav className="w-full fixed top-0 z-50 h-20 bg-[#121212]  shadow-md">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-16 py-2">
         <Link
           href={"/"}

@@ -1,0 +1,35 @@
+[
+    {
+      "title": "Education",
+      "id": "education",
+      "content": [
+        {
+          "title": "SEE",
+          "institution": "Everest English School",
+          "year": "2017"
+        },
+        {
+          "title": "NEB",
+          "institution": "Little Angels' College",
+          "year": "2018-2020"
+        },
+        {
+          "title": "Bachelors",
+          "institution": "Samriddhi College",
+          "year": "2020-Present"
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "id": "experience",
+      "content": [
+        {
+          "title": "Internship",
+          "institution": "Chulo Solutions",
+          "year": "March 2024 - Present"
+        }
+      ]
+    }
+  ]
+  
