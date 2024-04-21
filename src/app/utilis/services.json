@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "FrontEnd",
+    "description": "Frontend development focuses on creating the user interface and experience of a website or application. It involves using languages like HTML, CSS, and JavaScript to design and implement the visual elements that users interact with. Frontend developers work closely with designers to ensure the final product is user-friendly, visually appealing, and functional across different devices and browsers. They also often collaborate with backend developers to integrate frontend and backend functionalities seamlessly.",
+    "My_Services":[
+        {
+            "id":1,
+            "title":"Website Development",
+            "description":"Create responsive and visually appealing websites using HTML, CSS, and JavaScript. This includes designing user interfaces, implementing interactive features, and optimizing performance for various devices."
+        },
+        {
+            "id":2,
+            "title":"Web Application Development",
+            "description": "Build interactive web applications that offer functionality beyond static websites. This can involve using frameworks like React to create dynamic user interfaces and manage application state."
+        },
+        {
+            "id":3,
+            "title":"UI/UX Design",
+            "description":"Collaborate with designers to create intuitive user interfaces and engaging user experiences. This includes wireframing, prototyping, and conducting usability testing to ensure the effectiveness of the design."
+        }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "BackEnd",
+    "description": "Backend development focuses on the server-side of web development, dealing with the logic, databases, server configurations, and other behind-the-scenes aspects that power web applications. ",
+    "My_Services":[
+        {
+            "id":1,
+            "title":"API Development",
+            "description":"Develop RESTful APIs using Rails API mode or grape gem to enable communication between frontend applications, mobile apps, and backend services, facilitating data exchange and integrations."
+        },
+        {
+            "id":2,
+            "title":"Database Management",
+            "description": "Utilize ActiveRecord ORM in Rails to manage databases (e.g., PostgreSQL, MySQL) efficiently, including database schema design, migrations, querying, and ensuring data integrity."
+        },
+        {
+            "id":3,
+            "title":"Real-time Features",
+            "description":"Implement real-time features such as live chat, notifications, and activity feeds using ActionCable in Rails for WebSocket communication and Pub/Sub messaging patterns."
+        }
+    ]
+  }
+]
