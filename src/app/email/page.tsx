@@ -5,9 +5,14 @@ export default function Contact() {
       <h1 className=" text-3xl mt-32 mb-12 text-purple-200 text-center font-bold lg:text-4xl">
         Email Me
       </h1>
-      
+
       <div className="mx-auto">
-        <form className="flex flex-col">
+        <form
+          method="post"
+          action=""
+          className="flex flex-col"
+          name="contact_form"
+        >
           <div className="mb-6">
             <label
               htmlFor="email"
@@ -17,6 +22,7 @@ export default function Contact() {
             </label>
             <input
               type="email"
+              name="email"
               id="email"
               required
               placeholder="abc@gmail.com"
@@ -34,6 +40,7 @@ export default function Contact() {
             <input
               type="text"
               id="subject"
+              name="subject"
               required
               placeholder="Subject"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-80 p-2.5"
@@ -55,6 +62,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
+            name="submit"
             className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
           >
             {" "}
@@ -62,6 +70,7 @@ export default function Contact() {
           </button>
         </form>
       </div>
+      <script src="/sheet.js"></script>
     </>
   );
 }

@@ -22,6 +22,7 @@ export default function RootLayout({
           src="https://kit.fontawesome.com/586b261bcd.js"
           crossOrigin="anonymous"
         ></script>
+       
       </head>
 
       <body className={inter.className}>
