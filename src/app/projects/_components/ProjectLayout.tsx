@@ -1,9 +1,5 @@
 import React from 'react';
 
-interface ProjectTag{
-  name:string,
-
-}
 
 export default function ProjectTag({ name, onClick, isSelected }) {
   const buttonStyles = isSelected ? "text-white bg-purple-300" : "text-[#ADB&BE] border-slate-600 hover:border-white";

@@ -4,7 +4,7 @@ export function AboutMe() {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-6 items-center py-8 px-4 xl:gap-12 sm:py-16 xl:px-16">
-        <Image src="/images/avatar.png" width={300} height={300} />
+        <Image src="/images/avatar.png" alt="my avatar" width={300} height={300} />
         <div>
           <h2 className="text-5xl font-bold text-blue-200 mb-4 mt-4">About Me</h2>
           <p className="text-base text-justify lg:text-lg text-[#ADB7BE] mb-8">
