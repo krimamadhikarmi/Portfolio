@@ -1,7 +1,14 @@
 import { CodeBracketIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
-export function ProjectDetails({ imgUrl, title, gitUrl }) {
+
+interface ProjectDetailsProps{
+  imgUrl: string;
+  title: string;
+  gitUrl: string;
+}
+
+export function ProjectDetails({ imgUrl, title, gitUrl }:ProjectDetailsProps) {
   return (
     <div className="px-8">
       <div

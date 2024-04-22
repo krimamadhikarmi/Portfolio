@@ -4,6 +4,18 @@ import ProjectList from "./ProjectList";
 import project_data from "../utilis/project.json";
 import Link from "next/link";
 
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+}
+
+interface ProjectListProps {
+  projects: Project[];
+  limitProjects: boolean;
+}
+
+
 export function MyProjects() {
   const limitProjects = project_data.length > 3;
   return (

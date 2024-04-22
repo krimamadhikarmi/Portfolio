@@ -23,10 +23,10 @@ export function Contact() {
         </p>
         <div className="socials flex flex-row justify-center gap-2 mt-4">
           <Link href="https://github.com/krimamadhikarmi">
-            <Image src={GithubIcon} target="/blank"  rel="noopener noreferrer" alt="Github Icon" />
+            <Image src={GithubIcon}  alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/krima-madhikarmi-02b402294/">
-            <Image src={LinkedinIcon} target="/blank"  rel="noopener noreferrer" alt="Linkedin Icon" />
+            <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
           <Link href={'/email'}>
             <EnvelopeIcon  className="h-12 w-12 text-white cursor-pointer"/>

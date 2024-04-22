@@ -1,3 +1,4 @@
+'use client';
 export function EduButton({ active, onClick, children }) {
   const buttonClasses = active
     ? "text-black bg-purple-200"

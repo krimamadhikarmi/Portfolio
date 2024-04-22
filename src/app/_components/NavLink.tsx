@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-export function NavLink({ href, title }) {
+interface NavLinkProps{
+  href: string;
+  title: string;
+}
+
+export function NavLink({ href, title }: NavLinkProps) {
   return (
     <>
       <Link

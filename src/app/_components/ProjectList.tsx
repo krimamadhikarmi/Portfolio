@@ -1,7 +1,19 @@
 import React from 'react';
 import { ProjectDetails } from './ProjectDetails';
 
-const ProjectList = ({ projects,limitProjects}) => {
+interface Project {
+  id: string;
+  title: string;
+  image: string;
+  gitUrl: string;
+}
+
+interface ProjectListProps {
+  projects: Project[];
+  limitProjects: boolean;
+}
+
+const ProjectList = ({ projects,limitProjects}:{projects: Project[],limitProjects: boolean}) => {
   const displayedProjects = limitProjects ? projects.slice(0, 3) : projects;
   return (
     <div className="mb-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

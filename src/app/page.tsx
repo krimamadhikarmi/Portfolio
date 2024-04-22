@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Navbar } from "./_components/Navbar";
+
 import { HeroSection } from "./_components/HeroSection";
 import {AboutMe} from "./_components/AboutMe";
 import {Education} from "./_components/Education"
