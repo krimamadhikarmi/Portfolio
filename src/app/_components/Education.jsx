@@ -1,16 +1,17 @@
 "use client";
 import { useState} from "react";
 import { EduButton } from "./Button";
+import { setTab } from "@/redux/action/ProjectAction";
 import edu_data from "../utilis/education.json"
+import { useDispatch,useSelector } from "react-redux";
 
 export function Education() {
-  const [tab, setTab] = useState("education");
-  
+  const dispatch = useDispatch();
+  const tab = useSelector((state) => state.tab); // Get tab from Redux state
 
   const handleChange = (id) => {
-     setTab(id);
+    dispatch(setTab(id)); // Dispatch action to update tab in Redux store
   };
-
   const currentTab = edu_data.find((t) => t.id === tab);
   return (
     <section>
