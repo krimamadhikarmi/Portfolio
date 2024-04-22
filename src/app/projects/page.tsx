@@ -1,20 +1,18 @@
+
 'use client';
 import React, { useState } from "react";
+import { useSelector, useDispatch } from 'react-redux';
+import { setTag } from '../../redux/action/ProjectAction'
 import { ProjectDetails } from "../_components/ProjectDetails";
 import project_data from "../utilis/project.json";
 import ProjectTag from "./_components/ProjectLayout";
 
-
-interface Project{
-  newTag: string,
-}
-
-
 export default function Project() {
-  const [tag, setTag] = useState("All");
+  const dispatch = useDispatch();
+  const tag = useSelector((state) => state.tag);
 
   const handleTagChange = (newTag) => {
-    setTag(newTag);
+    dispatch(setTag(newTag));
   };
 
   const filteredProjects = project_data.filter((project) =>
