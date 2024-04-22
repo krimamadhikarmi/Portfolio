@@ -37,7 +37,7 @@ export function Education() {
         </div>
         <div className="mt-8  mx-auto grid grid-cols-1 sm:grid-cols-2 items-center lg:grid-cols-3 gap-4 w-2/3">
           {currentTab.content.map((item, index) => (
-            <div key={index} className="bg-gray-800 p-4 rounded-lg">
+            <div key={index}  className="bg-gray-800 p-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
               <p className="text-white text-xl font-bold">{item.title}</p>
               <p className="text-gray-300">{item.institution}</p>
               <p className="text-gray-300">{item.year}</p>

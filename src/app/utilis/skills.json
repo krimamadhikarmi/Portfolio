@@ -1,11 +1,15 @@
 [
   {
-    "name": "C",
-    "image": "./images/c.png"
+    "name": "React",
+    "image": "./images/react.png"
   },
   {
-    "name": "C++",
-    "image": "./images/c++.png"
+    "name": "Ruby",
+    "image": "./images/ruby.png"
+  },
+  {
+    "name": "JavaScript",
+    "image": "./images/js.png"
   },
   {
     "name": "HTML",
@@ -16,16 +20,12 @@
     "image": "./images/css.png"
   },
   {
-    "name": "JavaScript",
-    "image": "./images/js.png"
+    "name": "C",
+    "image": "./images/c.png"
   },
   {
-    "name": "React",
-    "image": "./images/react.png"
-  },
-  {
-    "name": "Ruby",
-    "image": "./images/ruby.png"
+    "name": "C++",
+    "image": "./images/c++.png"
   },
   {
     "name": "Rails",

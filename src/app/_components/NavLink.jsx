@@ -5,7 +5,7 @@ export function NavLink({ href, title }) {
     <>
       <Link
         href={href}
-        className="block py-2 pl-3 pr-4 text-white sm:text-xl rounded md:p-0 hover:text-gray-500"
+        className="block py-2 pl-3 pr-4 text-purple-200 sm:text-xl rounded md:p-0 hover:text-purple-300"
       >
         {title}
       </Link>

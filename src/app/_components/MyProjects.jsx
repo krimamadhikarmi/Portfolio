@@ -7,9 +7,11 @@ import Link from "next/link";
 
 export function MyProjects() {
   const limitProjects = project_data.length > 3;
+ 
+
   return (
-    <section id="projects">
-      <div className="flex flex-wrap justify-center items-center">
+    <section id="my projects">
+      <div className="flex flex-wrap justify-center items-center mt-20">
         <h1 className="text-3xl mt-4 mb-12 text-blue-300 text-center font-bold lg:text-4xl">
           My Projects
         </h1>

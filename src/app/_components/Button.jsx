@@ -6,7 +6,7 @@ export function EduButton({ active, onClick, children }) {
     <>
       <button
         onClick={onClick}
-        className={`px-6 py-3 w-full sm:w-fit lg:px-8 lg:py-4 rounded-full ${buttonClasses}`}
+        className={`px-6 py-3 w-full sm:w-fit lg:px-8 lg:py-4 rounded-full ${buttonClasses} transition duration-300 ease-in-out transform hover:scale-105` }
       >
         <p>{children}</p>
       </button>

@@ -1,9 +1,10 @@
+import React from "react";
 import {
   CodeBracketSquareIcon,
   RocketLaunchIcon,
 } from "@heroicons/react/16/solid";
 import Link from "next/link";
-import service_data from '../utilis/services.json';
+import service_data from "../utilis/services.json";
 
 export function MyServices() {
   return (
@@ -13,25 +14,23 @@ export function MyServices() {
           My Services
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 rounded-lg w-[60%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
-          {service_data.map(service => (
+          {service_data.map((service) => (
             <div
               key={service.id}
-              className="rounded-lg overflow-hidden hover:scale-110 transform transition-all duration-300 cursor-pointer"
+              className={`rounded-lg overflow-hidden hover:scale-110 transform transition-all duration-300 cursor-pointer ${
+                service.id === 1 ? "bg-red-800" : service.id === 2 ? "bg-blue-800" : ""
+              }`}
             >
-              <Link href={`/Services/${service.id}`}>
-                
-                  <div
-                    className={`bg-${service.id === 1 ? 'red-700' : 'blue-600'} uppercase font-semibold text-center p-[2rem]`}
-                  >
-                    {service.id === 1 ? (
-                      <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
-                    ) : (
-                      <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
-                    )}
-                    <h1 className="text-[20px]">{service.name}</h1>
-                    
-                  </div>
-              </Link>
+              <div className="uppercase font-semibold text-center p-[2rem]">
+                <Link href={`/Services/${service.id}?id=${service.id}`}>
+                  {service.id === 1 ? (
+                    <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                  ) : (
+                    <RocketLaunchIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                  )}
+                </Link>
+                <h1 className="text-[20px]">{service.name}</h1>
+              </div>
             </div>
           ))}
         </div>

@@ -24,7 +24,7 @@ export function Navbar() {
     },
     {
       title: "Projects",
-      path: "#projects",
+      path: "#my projects",
     },
     {
       title: "Contact",
@@ -37,10 +37,10 @@ export function Navbar() {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-16 py-2">
         <Link
           href={"/"}
-          className="cursor-pointer text-2xl md:text-5xl text-white font-semibold"
+          className="cursor-pointer text-2xl md:text-5xl text-blue-200 font-semibold"
         >
           K
-          <span className=" text-2xl md:text-5xl text-white font-semibold">
+          <span className=" text-2xl md:text-5xl text-blue-300 font-semibold">
             M
           </span>
         </Link>

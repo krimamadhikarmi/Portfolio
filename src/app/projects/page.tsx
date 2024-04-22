@@ -2,7 +2,13 @@
 import React, { useState } from "react";
 import { ProjectDetails } from "../_components/ProjectDetails";
 import project_data from "../utilis/project.json";
-import ProjectTag from "../_components/ProjectLayout";
+import ProjectTag from "./_components/ProjectLayout";
+
+
+interface Project{
+  newTag: string,
+}
+
 
 export default function Project() {
   const [tag, setTag] = useState("All");
