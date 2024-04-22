@@ -1,17 +1,14 @@
 "use client";
-
-import { useState, useTransition } from "react";
+import { useState} from "react";
 import { EduButton } from "./Button";
 import edu_data from "../utilis/education.json"
 
 export function Education() {
   const [tab, setTab] = useState("education");
-  const [isPending, startTransition] = useTransition();
+  
 
   const handleChange = (id) => {
-    startTransition(() => {
-      setTab(id);
-    });
+     setTab(id);
   };
 
   const currentTab = edu_data.find((t) => t.id === tab);
@@ -48,3 +45,8 @@ export function Education() {
     </section>
   );
 }
+
+
+
+
+

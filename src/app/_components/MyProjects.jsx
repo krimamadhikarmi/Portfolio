@@ -1,14 +1,11 @@
 'use client';
 import React from "react";
-import { ProjectDetails } from "./ProjectDetails";
 import ProjectList from "./ProjectList";
 import project_data from "../utilis/project.json";
 import Link from "next/link";
 
 export function MyProjects() {
   const limitProjects = project_data.length > 3;
- 
-
   return (
     <section id="my projects">
       <div className="flex flex-wrap justify-center items-center mt-20">

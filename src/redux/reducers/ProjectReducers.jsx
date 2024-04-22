@@ -1,8 +1,9 @@
 'use client';
-import { SET_TAG } from '../action/ProjectAction';
+import { SET_TAG , SET_TAB } from '../action/ProjectAction';
 
 const initialState = {
   tag: 'All',
+  tab: 'education',
 };
 
 const ProjectReducer = (state = initialState, action) => {
@@ -12,6 +13,12 @@ const ProjectReducer = (state = initialState, action) => {
         ...state,
         tag: action.payload,
       };
+    case SET_TAB:
+      return {
+        ...state,
+         tab: action.payload
+      };
+
     default:
       return state;
   }
