@@ -8,13 +8,9 @@ export function AboutMe() {
         <div>
           <h2 className="text-5xl font-bold text-blue-200 mb-4 mt-4">About Me</h2>
           <p className="text-base text-justify lg:text-lg text-[#ADB7BE] mb-8">
-            I am currently 3rd year student on Samriddhi College studying
+            I am currently 4th year student on Samriddhi College studying
             Bsc.Computer Science and Information Technology. I have been
-            interested in frontend developing as well as backend developing. I
-            have an internship experience at Chulo Solution.
-            <br/>
-              Aside from this, I have a hobby of reading books and traveling. I
-              am also interested in Astronomy.
+            interested in frontend developing as well as backend developing.
             
           </p>
           <Link
