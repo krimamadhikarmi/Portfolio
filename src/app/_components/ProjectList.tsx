@@ -2,7 +2,7 @@ import React from 'react';
 import { ProjectDetails } from './ProjectDetails';
 
 interface Project {
-  id: string;
+  id: number;
   title: string;
   image: string;
   gitUrl: string;

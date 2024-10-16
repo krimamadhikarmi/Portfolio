@@ -70,7 +70,7 @@ export default function Contact() {
           </button>
         </form>
       </div>
-      <script src="/sheet.js"></script>
+      <script src="/sheet.js" defer></script>
     </>
   );
 }

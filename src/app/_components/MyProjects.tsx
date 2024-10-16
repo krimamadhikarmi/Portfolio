@@ -5,7 +5,7 @@ import project_data from "../utilis/project.json";
 import Link from "next/link";
 
 interface Project {
-  id: string;
+  id: number;
   title: string;
   description: string;
 }
