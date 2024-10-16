@@ -28,13 +28,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex min-h-screen flex-col bg-[#121212]">
           <Provider store={store}>
-
           <Navbar />
           {children}
           <Footer/>
-
           </Provider>
-          
         </div>
       </body>
     </html>

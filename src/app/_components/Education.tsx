@@ -1,5 +1,4 @@
 "use client";
-import { useState} from "react";
 import { EduButton } from "./Button";
 import { setTab } from "@/redux/action/ProjectAction";
 import edu_data from "../utilis/education.json"
@@ -19,7 +18,7 @@ interface Tab {
 
 export function Education() {
   const dispatch = useDispatch();
-  const tab = useSelector((state) => state.tab); 
+  const tab = useSelector((state: any) => state.tab); 
 
   const handleChange = (id: string) => {
     dispatch(setTab(id)); 

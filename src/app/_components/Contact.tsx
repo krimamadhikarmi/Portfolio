@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import GithubIcon from "../../../public/images/github-icon.svg";
 import LinkedinIcon from "../../../public/images/linkedin-icon.svg";
 import Link from "next/link";
@@ -16,20 +16,20 @@ export function Contact() {
           Lets Connect
         </h2>
         <p className="text-white text-jutify text-center mt-4 font-semibold px-4 sm:text-lg">
-          I'm currently looking for new opportunities, my inbox is always open.{" "}
+          I am currently looking for new opportunities, my inbox is always open.{" "}
           <br />
-          Whether you have a question or just want to say hi, I'll <br />
+          Whether you have a question or just want to say hi, I will <br />
           try my best to get back to you! <br />
         </p>
         <div className="socials flex flex-row justify-center gap-2 mt-4">
           <Link href="https://github.com/krimamadhikarmi">
-            <Image src={GithubIcon}  alt="Github Icon" />
+            <Image src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/krima-madhikarmi-02b402294/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
-          <Link href={'/email'}>
-            <EnvelopeIcon  className="h-12 w-12 text-white cursor-pointer"/>
+          <Link href={"/email"}>
+            <EnvelopeIcon className="h-12 w-12 text-white cursor-pointer" />
           </Link>
         </div>
       </div>

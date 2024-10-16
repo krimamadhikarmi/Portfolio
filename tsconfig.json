@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/_components/Navbar.tsx", "src/app/api/sendEmail/route.js", "src/app/_components/Button.jsx", "src/app/_components/ProjectDetails.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/_components/Navbar.tsx", "src/app/api/sendEmail/route.js", "src/app/_components/Button.jsx", "src/app/_components/ProjectDetails.tsx", "src/redux/reducers/ProjectReducers.jsx"],
   "exclude": ["node_modules"]
 }

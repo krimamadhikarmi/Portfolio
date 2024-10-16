@@ -8,10 +8,6 @@ interface Project {
   gitUrl: string;
 }
 
-interface ProjectListProps {
-  projects: Project[];
-  limitProjects: boolean;
-}
 
 const ProjectList = ({ projects,limitProjects}:{projects: Project[],limitProjects: boolean}) => {
   const displayedProjects = limitProjects ? projects.slice(0, 3) : projects;

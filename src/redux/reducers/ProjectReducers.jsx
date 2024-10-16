@@ -25,3 +25,4 @@ const ProjectReducer = (state = initialState, action) => {
 };
 
 export default ProjectReducer;
+

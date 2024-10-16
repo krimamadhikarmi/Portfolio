@@ -37,22 +37,24 @@ export function HeroSection() {
           <p className="text-[#ADB7BE] mb-4 sm:text-xl text-justify px-6 lg:px-6 text-xl">
             I am a Computer Science student with a passion for problem-solving
             and technology. I have foundation in programming, web development,
-            and data structures. I'm eager to learn and apply my skills to
+            and data structures. I am eager to learn and apply my skills to
             real-world challenges.
           </p>
           <div className="px-6">
-            <Link href={"./Cv.pdf"} target="_blank" download>
+            <Link href={"./myCv.pdf"} target="_blank" download>
               <button className="px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-pink-500 hover:bg-slate-200">
                 Download CV
               </button>
             </Link>
           </div>
         </motion.div>
-         
+
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }} className="col-span-5 place-self-center mt-12 lg:mt-0">
+          transition={{ duration: 0.5 }}
+          className="col-span-5 place-self-center mt-12 lg:mt-0"
+        >
           <div className="rounded-full bg-[#121212] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/avatar.png"
