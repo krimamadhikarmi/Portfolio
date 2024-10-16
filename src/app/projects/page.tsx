@@ -5,12 +5,13 @@ import { setTag } from '../../redux/action/ProjectAction'
 import { ProjectDetails } from "../_components/ProjectDetails";
 import project_data from "../utilis/project.json";
 import ProjectTag from "./_components/ProjectLayout";
+import { RootState } from '../../redux/store/configurStore'; 
 
 export default function Project() {
   const dispatch = useDispatch();
-  const tag = useSelector((state) => state.tag);
+  const tag = useSelector((state: RootState) => state.tag);
 
-  const handleTagChange = (newTag) => {
+  const handleTagChange = (newTag: string) => {
     dispatch(setTag(newTag));
   };
 
