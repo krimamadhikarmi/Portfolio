@@ -14,7 +14,7 @@ export function HeroSection() {
           transition={{ duration: 0.5 }}
           className="col-span-7 place-self-center text-center sm:text-left"
         >
-          <h1 className="text-white mt-32 text-4xl sm:text-5xl lg:text-6xl font-bold px-6 mb-4">
+          <h1 className="text-white mt-32 text-4xl sm:text-5xl lg:text-5xl font-bold px-6 mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
               Hi ! I am {""}
             </span>
@@ -23,9 +23,7 @@ export function HeroSection() {
               sequence={[
                 "Krima Madhikarmi",
                 1000,
-                "FrontEnd Developer",
-                1000,
-                "Student",
+                "Software Developer",
                 1000,
               ]}
               wrapper="span"
