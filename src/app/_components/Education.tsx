@@ -27,7 +27,7 @@ export function Education() {
   return (
     <section>
       <div>
-        <h1 className=" text-3xl mt-4 text-purple-300 text-center font-bold lg:text-4xl">
+        <h1 className=" text-3xl mt-16 text-purple-300 text-center font-bold lg:text-4xl">
           Education & Experience
         </h1>
         <div className="text-center mt-8 space-x-4">
