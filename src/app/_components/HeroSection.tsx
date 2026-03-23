@@ -20,12 +20,7 @@ export function HeroSection() {
             </span>
             <br />
             <TypeAnimation
-              sequence={[
-                "Krima Madhikarmi",
-                1000,
-                "Software Developer",
-                1000,
-              ]}
+              sequence={["Krima Madhikarmi", 1000, "Software Developer", 1000]}
               wrapper="span"
               speed={50}
               className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-red-500"
@@ -33,16 +28,26 @@ export function HeroSection() {
             />
           </h1>
           <p className="text-[#ADB7BE] mb-4 sm:text-xl text-justify px-6 lg:px-6 text-xl">
-            I am a Computer Science student with a passion for problem-solving
-            and technology. I have foundation in programming, web development,
-            and data structures. I am eager to learn and apply my skills to
-            real-world challenges.
+            I am a recent BSc.CSIT graduate with experience in web and mobile
+            application development. Through personal projects, I have worked
+            with technologies such as React.js,Laravel, Ruby on Rails, and React
+            Native, where I contributed to both individual and team projects. I
+            am eager to develop creative solutions and continuously improve my
+            skills, with the goal of contributing to meaningful software
+            projects and making a positive impact.
           </p>
-          <div className="px-6">
+          <div className="px-6 flex gap-x-4">
             <Link href={"./myCv.pdf"} target="_blank" download>
               <button className="px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-pink-500 hover:bg-slate-200">
                 Download CV
               </button>
+            </Link>
+            <Link
+              href={"/myCv.pdf"}
+              target="_blank"
+              className=" px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-green-500  to-red-500 hover:bg-slate-200"
+            >
+              View My CV
             </Link>
           </div>
         </motion.div>
