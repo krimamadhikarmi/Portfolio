@@ -5,7 +5,7 @@ import skills_data from "../utilis/skills.json";
 export function Skills() {
   const [showAllSkills, setShowAllSkills] = useState(false);
 
-  const filteredSkills = showAllSkills ? skills_data : skills_data.slice(0, 3);
+  const filteredSkills = showAllSkills ? skills_data : skills_data.slice(0, 4);
 
   return (
     <section>
@@ -33,8 +33,8 @@ export function Skills() {
           ))}
         </div>
 
-        {skills_data.length > 3 && (
-          <div className="flex justify-center mt-4">
+        {skills_data.length > 4 && (
+          <div className="flex justify-center mt-4 mb-8">
             <button
               className="px-4 py-3 w-full sm:w-auto text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-yellow-500 to-pink-500 hover:bg-slate-200 transition duration-300 ease-in-out transform hover:scale-105"
               onClick={() => setShowAllSkills(!showAllSkills)}
