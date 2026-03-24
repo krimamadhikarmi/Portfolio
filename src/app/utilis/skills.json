@@ -3,13 +3,14 @@
     "name": "React",
     "image": "./images/react.png"
   },
-  {
-    "name": "Ruby",
-    "image": "./images/ruby.png"
-  },
+
   {
     "name": "JavaScript",
     "image": "./images/js.png"
+  },
+  {
+    "name": "Laravel",
+    "image": "./images/laravel.png"
   },
   {
     "name": "HTML",
@@ -20,15 +21,19 @@
     "image": "./images/css.png"
   },
   {
+    "name": "Ruby",
+    "image": "./images/ruby.png"
+  },
+  {
+    "name": "Rails",
+    "image": "./images/rails.png"
+  },
+  {
     "name": "C",
     "image": "./images/c.png"
   },
   {
     "name": "C++",
     "image": "./images/c++.png"
-  },
-  {
-    "name": "Rails",
-    "image": "./images/rails.png"
   }
 ]

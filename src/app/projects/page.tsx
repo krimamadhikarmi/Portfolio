@@ -1,11 +1,11 @@
-'use client';
+"use client";
 import React, { useState } from "react";
-import { useSelector, useDispatch } from 'react-redux';
-import { setTag } from '../../redux/action/ProjectAction'
+import { useSelector, useDispatch } from "react-redux";
+import { setTag } from "../../redux/action/ProjectAction";
 import { ProjectDetails } from "../_components/ProjectDetails";
 import project_data from "../utilis/project.json";
 import ProjectTag from "./_components/ProjectLayout";
-import { RootState } from '../../redux/store/configurStore'; 
+import { RootState } from "../../redux/store/configurStore";
 
 export default function Project() {
   const dispatch = useDispatch();
@@ -16,7 +16,7 @@ export default function Project() {
   };
 
   const filteredProjects = project_data.filter((project) =>
-    tag === "All" ? true : project.tag.includes(tag)
+    tag === "All" ? true : project.tag.includes(tag),
   );
 
   return (
@@ -31,6 +31,21 @@ export default function Project() {
           isSelected={tag === "All"}
         />
         <ProjectTag
+          name="React"
+          onClick={handleTagChange}
+          isSelected={tag === "React"}
+        />
+        <ProjectTag
+          name="Laravel"
+          onClick={handleTagChange}
+          isSelected={tag === "Laravel"}
+        />
+        <ProjectTag
+          name="JS"
+          onClick={handleTagChange}
+          isSelected={tag === "JS"}
+        />
+        <ProjectTag
           name="C"
           onClick={handleTagChange}
           isSelected={tag === "C"}
@@ -40,20 +55,11 @@ export default function Project() {
           onClick={handleTagChange}
           isSelected={tag === "C++"}
         />
-        <ProjectTag
-          name="JS"
-          onClick={handleTagChange}
-          isSelected={tag === "JS"}
-        />
+
         <ProjectTag
           name="Ruby"
           onClick={handleTagChange}
           isSelected={tag === "Ruby"}
-        />
-        <ProjectTag
-          name="React"
-          onClick={handleTagChange}
-          isSelected={tag === "React"}
         />
       </div>
 
