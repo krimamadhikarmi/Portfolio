@@ -1,69 +1,98 @@
 [
   {
     "id": 1,
+    "title": "Job Tracker (React)",
+    "image": "images/jobtracker.png",
+    "gitUrl": "https://github.com/krimamadhikarmi/tracker_frontend",
+    "tag": ["All", "React"]
+  },
+  {
+    "id": 2,
     "title": "CampusBridge",
     "image": "images/campusbridge1.jpg",
     "gitUrl": "https://github.com/krimamadhikarmi/CampusBridge_frontend.git",
     "tag": ["All", "React"]
   },
+
   {
-    "id": 2,
+    "id": 3,
     "title": "Movie Review App (React)",
     "image": "images/movreact.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/MovieReview_Redux.git",
     "tag": ["All", "React"]
   },
   {
-    "id": 3,
+    "id": 4,
+    "title": "Job Tracker (Laravel)",
+    "image": "images/jobtracker.png",
+    "gitUrl": "https://github.com/krimamadhikarmi/tracker_backend",
+    "tag": ["All", "Laravel"]
+  },
+  {
+    "id": 5,
+    "title": "Food Website (React)",
+    "image": "images/foodwebsite.jpeg",
+    "gitUrl": "https://github.com/krimamadhikarmi/FoodWebsite",
+    "tag": ["All", "React"]
+  },
+  {
+    "id": 7,
+    "title": "Food Website (Laravel)",
+    "image": "images/foodwebsite.jpeg",
+    "gitUrl": "https://github.com/krimamadhikarmi/FoodWebsite_API",
+    "tag": ["All", "Laravel"]
+  },
+  {
+    "id": 8,
     "title": "Movie Review App (React Native)",
     "image": "images/searchhh.jpg",
     "gitUrl": "https://github.com/krimamadhikarmi/Movie_App_ReactNative.git",
     "tag": ["All", "React"]
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "SpringBall",
     "image": "images/spring.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/Spring-Ball.git",
     "tag": ["All", "C"]
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "Movie Review (Ruby on Rails)",
     "image": "images/movierev.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/Movie-Review-App.git",
     "tag": ["All", "Ruby"]
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "Ecommerce App",
     "image": "images/cartify.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/Cartify_App.git",
     "tag": ["All", "Ruby"]
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "Car Crash",
     "image": "images/car.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/Car-Crash.git",
     "tag": ["All", "C++"]
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "Ideator App",
     "image": "images/ideator.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/ideator.git",
     "tag": ["All", "Ruby"]
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "InstaPost App",
     "image": "images/insta.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/Instapost.git",
     "tag": ["All", "Ruby"]
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "Library Management System",
     "image": "images/library.PNG",
     "gitUrl": "https://github.com/Binisha1/library-management.git",
@@ -71,14 +100,14 @@
   },
 
   {
-    "id": 10,
+    "id": 16,
     "title": "Quote Generator App",
     "image": "images/quote.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/QuoteGenerator.git",
     "tag": ["All", "JS"]
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Todo App",
     "image": "images/todo.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/Todo_App_React.git",
