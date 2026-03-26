@@ -7,14 +7,14 @@ import { motion } from "framer-motion";
 export function HeroSection() {
   return (
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-12 lg:px-12">
+      <div className="grid grid-cols-1 md:grid-cols-12 sm:px-4 lg:px-12">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-7 place-self-center text-center sm:text-left"
         >
-          <h1 className="text-white mt-32 text-4xl sm:text-5xl lg:text-5xl font-bold px-6 mb-4">
+          <h1 className="text-white mt-24 sm:mt-32 text-3xl sm:text-4xl xl:text-5xl font-bold px-8 lg:px-6  mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
               Hi ! I am {""}
             </span>
@@ -27,7 +27,7 @@ export function HeroSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] mb-4 sm:text-xl text-justify px-6 lg:px-6 text-xl">
+          <p className="text-[#ADB7BE] mb-6 sm:mb-4 text-lg sm:text-xl xl:text-2xl text-justify px-8 lg:px-6 ">
             I am a recent BSc.CSIT graduate with experience in web and mobile
             application development. Through personal projects, I have worked
             with technologies such as React.js,Laravel, Ruby on Rails, and React
@@ -36,16 +36,17 @@ export function HeroSection() {
             skills, with the goal of contributing to meaningful software
             projects and making a positive impact.
           </p>
-          <div className="px-6 flex gap-x-4">
-            <Link href={"./myCv.pdf"} target="_blank" download>
-              <button className="px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-pink-500 hover:bg-slate-200">
+          <div className="px-6 flex flex-col gap-3 sm:flex-row sm:gap-6">
+            <Link href={"/myCv.pdf"} target="_blank" download>
+              <button className="w-full sm:w-fit px-5 py-3 xl:px-6 xl:py-4 text-sm sm:text-lg xl:text-xl text-white rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-pink-500">
                 Download CV
               </button>
             </Link>
+
             <Link
               href={"/myCv.pdf"}
               target="_blank"
-              className=" px-6 py-3 w-full sm:w-fit text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-green-500  to-red-500 hover:bg-slate-200"
+              className="w-full sm:w-fit px-5 py-3 xl:px-6 xl:py-4 text-sm sm:text-lg xl:text-xl text-white rounded-full bg-gradient-to-br from-green-500 to-red-500"
             >
               View My CV
             </Link>
@@ -56,7 +57,7 @@ export function HeroSection() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-5 place-self-center mt-12 lg:mt-0"
+          className="hidden md:block col-span-5 place-self-center mt-12 lg:mt-0"
         >
           <div className="rounded-full bg-[#121212] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
