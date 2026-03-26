@@ -34,7 +34,7 @@ export function Navbar() {
 
   return (
     <nav className="w-full fixed top-0 z-50 h-20 bg-[#121212]  shadow-md">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-16 pb-2 pt-4">
+      <div className="flex container lg:pb-4 lg:pt-4 flex-wrap items-center justify-between mx-auto px-16 pb-2 pt-4">
         <Link
           href={"/"}
           className="cursor-pointer text-2xl md:text-3xl text-blue-200 font-semibold"
@@ -63,7 +63,7 @@ export function Navbar() {
         </div>
 
         <div className="menu hidden sm:block sm:w-auto" id="navbar">
-          <ul className="flex p-4 sm:p-0 sm:flex-row sm:space-x-8 mt-0">
+          <ul className="flex p-4 sm:p-0 sm:flex-row sm:space-x-8 mt-0 lg:gap-x-6 xl:gap-x-8">
             {navLinks.map((link, index) => (
               <li key={index}>
                 <NavLink href={link.path} title={link.title} />
