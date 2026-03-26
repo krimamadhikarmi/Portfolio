@@ -14,7 +14,7 @@ export function HeroSection() {
           transition={{ duration: 0.5 }}
           className="col-span-7 place-self-center text-center sm:text-left"
         >
-          <h1 className="text-white mt-24 sm:mt-32 text-3xl sm:text-4xl xl:text-5xl font-bold px-8 lg:px-6  mb-4">
+          <h1 className="text-white mt-24 sm:mt-32 text-3xl sm:text-[35px] xl:text-[40px] font-bold px-8 lg:px-6 mb-4">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
               Hi ! I am {""}
             </span>
@@ -27,7 +27,7 @@ export function HeroSection() {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] mb-6 sm:mb-4 text-lg sm:text-xl xl:text-2xl text-justify px-8 lg:px-6 ">
+          <p className="text-[#ADB7BE] mb-6 sm:mb-4 text-base sm:text-lg xl:text-xl text-justify px-8 lg:px-6 ">
             I am a recent BSc.CSIT graduate with experience in web and mobile
             application development. Through personal projects, I have worked
             with technologies such as React.js,Laravel, Ruby on Rails, and React
@@ -38,7 +38,7 @@ export function HeroSection() {
           </p>
           <div className="px-6 flex flex-col gap-3 sm:flex-row sm:gap-6">
             <Link href={"/myCv.pdf"} target="_blank" download>
-              <button className="w-full sm:w-fit px-5 py-3 xl:px-6 xl:py-4 text-sm sm:text-lg xl:text-xl text-white rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-pink-500">
+              <button className="w-full sm:w-fit px-5 py-3 xl:px-6 xl:py-4 text-base sm:text-lg text-white rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-pink-500">
                 Download CV
               </button>
             </Link>
@@ -46,7 +46,7 @@ export function HeroSection() {
             <Link
               href={"/myCv.pdf"}
               target="_blank"
-              className="w-full sm:w-fit px-5 py-3 xl:px-6 xl:py-4 text-sm sm:text-lg xl:text-xl text-white rounded-full bg-gradient-to-br from-green-500 to-red-500"
+              className="w-full sm:w-fit px-5 py-3 xl:px-6 xl:py-4 text-base sm:text-lg text-white rounded-full bg-gradient-to-br from-green-500 to-red-500"
             >
               View My CV
             </Link>
