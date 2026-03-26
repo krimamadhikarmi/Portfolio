@@ -1,9 +1,8 @@
 "use client";
 import { EduButton } from "./Button";
 import { setTab } from "@/redux/action/ProjectAction";
-import edu_data from "../utilis/education.json"
-import { useDispatch,useSelector } from "react-redux";
-
+import edu_data from "../utilis/education.json";
+import { useDispatch, useSelector } from "react-redux";
 
 interface Education {
   title: string;
@@ -18,19 +17,19 @@ interface Tab {
 
 export function Education() {
   const dispatch = useDispatch();
-  const tab = useSelector((state: any) => state.tab); 
+  const tab = useSelector((state: any) => state.tab);
 
   const handleChange = (id: string) => {
-    dispatch(setTab(id)); 
+    dispatch(setTab(id));
   };
   const currentTab = edu_data.find((t) => t.id === tab);
   return (
     <section>
       <div>
-        <h1 className=" text-3xl mt-16 text-purple-300 text-center font-bold lg:text-4xl">
+        <h1 className=" text-2xl sm:text-3xl lg:text-4xl mt-16 text-purple-300 text-center font-bold ">
           Education & Experience
         </h1>
-        <div className="text-center mt-8 space-x-4">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-3 mt-8 px-8 sm:px-6">
           <EduButton
             onClick={() => handleChange("education")}
             active={tab === "education"}
@@ -44,9 +43,13 @@ export function Education() {
             Experience
           </EduButton>
         </div>
-        <div className="mt-8  mx-auto grid grid-cols-1 sm:grid-cols-2 items-center lg:grid-cols-3 gap-4 w-2/3">
+        <div className="mt-8 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-8 sm:px-6  max-w-5xl">
+          {" "}
           {currentTab?.content.map((item, index) => (
-            <div key={index}  className="bg-gray-800 p-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+            <div
+              key={index}
+              className="bg-gray-800 p-4 rounded-lg transition duration-300 ease-in-out transform hover:scale-105"
+            >
               <p className="text-white text-xl font-bold">{item.title}</p>
               <p className="text-gray-300">{item.institution}</p>
               <p className="text-gray-300">{item.year}</p>
@@ -57,8 +60,3 @@ export function Education() {
     </section>
   );
 }
-
-
-
-
-

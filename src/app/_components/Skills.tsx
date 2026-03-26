@@ -10,7 +10,7 @@ export function Skills() {
   return (
     <section>
       <div className="mt-16 sm:mt-20">
-        <h1 className="text-4xl mt-4 mb-12 text-blue-300 text-center font-bold lg:text-4xl">
+        <h1 className="text-2xl mt-4 mb-12 text-blue-300 text-center font-bold sm:text-3xl lg:text-4xl">
           Skills
         </h1>
         <div className="mx-auto px-2 sm:px-12 flex flex-wrap justify-center gap-12">
