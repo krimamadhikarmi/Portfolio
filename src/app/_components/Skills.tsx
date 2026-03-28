@@ -9,8 +9,8 @@ export function Skills() {
 
   return (
     <section>
-      <div className="mt-20">
-        <h1 className="text-3xl mt-4 mb-12 text-blue-300 text-center font-bold lg:text-4xl">
+      <div className="mt-16 sm:mt-20">
+        <h1 className="text-2xl mt-4 mb-12 text-blue-300 text-center font-bold sm:text-3xl lg:text-4xl">
           Skills
         </h1>
         <div className="mx-auto px-2 sm:px-12 flex flex-wrap justify-center gap-12">
@@ -26,7 +26,7 @@ export function Skills() {
                   className="object-cover w-full h-full"
                 />
               </div>
-              <h3 className="text-lg font-bold text-white mb-6">
+              <h3 className="text-lg font-bold text-white mb-6 mt-2">
                 {skill.name}
               </h3>
             </div>
@@ -34,9 +34,9 @@ export function Skills() {
         </div>
 
         {skills_data.length > 4 && (
-          <div className="flex justify-center mt-4 mb-8">
+          <div className="flex justify-center mt-4 mb-8 px-6">
             <button
-              className="px-4 py-3 w-full sm:w-auto text-white lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-yellow-500 to-pink-500 hover:bg-slate-200 transition duration-300 ease-in-out transform hover:scale-105"
+              className="px-4 py-3 w-full sm:w-auto text-white text-xl lg:px-8 lg:py-4 rounded-full bg-gradient-to-br from-yellow-500 to-pink-500 hover:bg-slate-200 transition duration-300 ease-in-out transform hover:scale-105"
               onClick={() => setShowAllSkills(!showAllSkills)}
             >
               {showAllSkills ? "Show Less" : "See More"}

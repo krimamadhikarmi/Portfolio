@@ -7,7 +7,7 @@ import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 export function Contact() {
   return (
-    <section id="contact" className="mt-24 px-4">
+    <section id="contact" className="mt-14 px-4">
       <div className="max-w-2xl mx-auto mt-10 bg-[#111] border border-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-purple-500/10 transition duration-300">
         <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 text-center font-bold text-2xl">
           Let’s Connect 🚀
