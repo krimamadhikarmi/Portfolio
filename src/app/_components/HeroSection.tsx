@@ -42,14 +42,14 @@ export function HeroSection() {
                 Download CV
               </button>
             </Link>
-
-            <Link
-              href={"/myCv.pdf"}
+            <a
+              href="/myCv.pdf"
               target="_blank"
-              className="w-full sm:w-fit px-5 py-3 xl:px-6 xl:py-4 text-base sm:text-lg text-white rounded-full bg-gradient-to-br from-green-500 to-red-500"
+              rel="noopener noreferrer"
+              className="w-full sm:w-fit px-5 py-3 xl:px-6 xl:py-4 text-base sm:text-lg text-white rounded-full bg-gradient-to-br from-green-500 to-red-500 inline-block text-center"
             >
               View My CV
-            </Link>
+            </a>
           </div>
         </motion.div>
 
