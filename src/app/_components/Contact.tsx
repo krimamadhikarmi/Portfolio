@@ -17,7 +17,7 @@ export function Contact() {
           I’m currently open to new opportunities. Whether you have a question,
           a project idea, or just want to say hi, feel free to reach out!
         </p>
-
+        {/* 
         <div className="flex justify-center mt-6">
           <Link
             href="/email"
@@ -25,11 +25,11 @@ export function Contact() {
           >
             Send Message
           </Link>
-        </div>
+        </div> */}
 
         <div className="flex items-center my-6">
           <div className="flex-grow h-px bg-gray-700"></div>
-          <span className="px-3 text-gray-500 text-sm">or</span>
+          {/* <span className="px-3 text-gray-500 text-sm">or</span> */}
           <div className="flex-grow h-px bg-gray-700"></div>
         </div>
 
@@ -46,11 +46,14 @@ export function Contact() {
             </div>
           </Link>
 
-          <Link href="/email">
-            <div className="p-3 bg-gray-900 rounded-full hover:scale-110 hover:bg-gray-800 transition duration-300 cursor-pointer">
-              <EnvelopeIcon className="w-6 h-6 text-white" />
-            </div>
-          </Link>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=madhikrima20@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 bg-gray-900 rounded-full hover:scale-110 hover:bg-gray-800 transition duration-300 cursor-pointer inline-flex"
+          >
+            <EnvelopeIcon className="w-6 h-6 text-white" />
+          </a>
         </div>
       </div>
     </section>

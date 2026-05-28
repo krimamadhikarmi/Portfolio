@@ -8,6 +8,14 @@
   },
   {
     "id": 2,
+    "title": "Task Manager",
+    "image": "images/task-manager.jpeg",
+    "gitUrl": "https://github.com/krimamadhikarmi/Task-Manager",
+    "websiteUrl": "https://task-manager-zeta-two-68.vercel.app/",
+    "tag": ["All", "React"]
+  },
+  {
+    "id": 3,
     "title": "CampusBridge",
     "image": "images/campusbridge1.jpg",
     "gitUrl": "https://github.com/krimamadhikarmi/CampusBridge_frontend.git",
@@ -15,24 +23,25 @@
   },
 
   {
-    "id": 3,
+    "id": 4,
     "title": "Movie Review App (React)",
     "image": "images/movreact.PNG",
     "gitUrl": "https://github.com/krimamadhikarmi/MovieReview_Redux.git",
     "tag": ["All", "React"]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Job Tracker (Laravel)",
     "image": "images/jobtracker.png",
     "gitUrl": "https://github.com/krimamadhikarmi/tracker_backend",
     "tag": ["All", "Laravel"]
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Food Website (React)",
     "image": "images/foodwebsite.jpeg",
     "gitUrl": "https://github.com/krimamadhikarmi/FoodWebsite",
+    "websiteUrl": "https://food-website-nine-zeta.vercel.app/",
     "tag": ["All", "React"]
   },
   {
