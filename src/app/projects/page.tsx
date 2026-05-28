@@ -78,6 +78,7 @@ export default function Project() {
             title={project.title}
             imgUrl={project.image}
             gitUrl={project.gitUrl}
+            websiteUrl={project.websiteUrl}
           />
         ))}
       </div>
